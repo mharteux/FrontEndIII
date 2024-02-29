@@ -1,2 +1,4 @@
-# HelloWorld
- Hello World with React
+# Front End Projects
+ - Hello World with React
+ - Exercises
+ - JS Review
