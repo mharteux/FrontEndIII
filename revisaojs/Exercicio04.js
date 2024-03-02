@@ -1,5 +1,5 @@
 /*
-• Faça um script que contenha um  array chamado notas, esse array armazena 3 notas de um aluno.
+• Faça um script que contenha um array chamado notas, esse array armazena 3 notas de um aluno.
 
 • O programa deve imprimir:
 
