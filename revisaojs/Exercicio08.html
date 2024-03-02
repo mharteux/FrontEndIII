@@ -1,0 +1,30 @@
+<!--
+• Escreva um html que contenha um botão “Clique aqui”
+
+• Dentro desse HTML inicialize um “<script> … </script>” que contenha um script em JS que receba esse elemento do botão em uma váriavel, 
+e logo após implemente um “ouvinte” com essa variável para exibir o alert “Botão clicado!”
+
+• alert(“Botão clicado!”);
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="Botao">Clique aqui</button>
+
+    <script>
+        // Obtendo o elemento do botão pelo seu ID
+        const botao = document.getElementById('Botao');
+        
+        // Adicionando um ouvinte de evento para o clique no botão
+        botao.addEventListener('click', function() {
+            alert("Botão clicado!");
+        });
+    </script>
+</body>
+</html>
