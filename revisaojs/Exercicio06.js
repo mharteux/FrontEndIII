@@ -8,14 +8,22 @@ Para números que são múltiplos de ambos 3 e 5, imprima "FizzBuzz".
 • número % 3 == 0
 */
 
+// Loop de 1 a 100
 for (let i = 1; i <= 100; i++) {
-    if (i % 3 == 0 && i % 5 == 0) {
+    // Verifica se o número é múltiplo de 3 e 5
+    if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
+    } 
+    // Verifica se o número é múltiplo de 3
+    else if (i % 3 === 0) {
         console.log("Fizz");
-    } else if (i % 5 == 0) {
+    } 
+    // Verifica se o número é múltiplo de 5
+    else if (i % 5 === 0) {
         console.log("Buzz");
-    } else {
+    } 
+    // Se o número não for múltiplo de 3 ou 5, imprimir o resto dos números
+    else {
         console.log(i);
     }
 }
