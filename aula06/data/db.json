@@ -1,0 +1,16 @@
+{
+    "noticias":[
+        {
+            "id": 1,
+            "titulo": "UNIESP é ponto de entrega de doações para o Rio Grande do Sul",
+            "subtitulo": "Solidariedade em Rede: UNIESP une esforços para auxiliar o Rio Grande do Sul",
+            "texto": "O UNIESP será um dos pontos de recebimento de doações para as vítimas das enchentes no Rio Grande do Sul. Até esta sábado (11), os interessados poderão oferecer ajuda através dos seguintes itens: água mineral, material de higiene pessoal, colchões em bom estado, roupas, fraldas e outros semelhantes. A entrega deve ser feita na Central de Relacionamento, que fica no térreo do Bloco Central, das 8h às 21h até sexta e das 9h a 12h no sábado."
+        },
+        {
+            "id": 2,
+            "titulo": "Instrutor da CBF Academy ministra curso no UNIESP",
+            "subtitulo": "Excelência Técnica: Parceria entre CBF Academy e UNIESP eleva padrões de formação esportiva",
+            "texto": "O instrutor da CBF Academy, Márcio Faria Corrêa realiza nos dias 03 e 04 de maio o curso Dinâmica Geral do Processo de Treinamento no Futebol, no auditório Master do UNIESP Centro Universitário."
+        }
+    ]
+}
