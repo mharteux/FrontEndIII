@@ -1,16 +1,29 @@
 {
-    "noticias":[
+    "noticias": [
         {
-            "id": 1,
-            "titulo": "UNIESP é ponto de entrega de doações para o Rio Grande do Sul",
-            "subtitulo": "Solidariedade em Rede: UNIESP une esforços para auxiliar o Rio Grande do Sul",
-            "texto": "O UNIESP será um dos pontos de recebimento de doações para as vítimas das enchentes no Rio Grande do Sul. Até esta sábado (11), os interessados poderão oferecer ajuda através dos seguintes itens: água mineral, material de higiene pessoal, colchões em bom estado, roupas, fraldas e outros semelhantes. A entrega deve ser feita na Central de Relacionamento, que fica no térreo do Bloco Central, das 8h às 21h até sexta e das 9h a 12h no sábado."
+            "id": "1",
+            "titulo": "Pocket Design começa nesta sexta-feira",
+            "subtitulo": "A participação, voltada para estudantes da área, é gratuita e não precisa de inscrição",
+            "texto": "Nesta sexta (12) começa mais uma edição do Pocket Design, evento que neste ano tem uma novidade: além de atividades voltadas ao curso de Design de Interiores, a graduação em Design Gráfico, nova na instituição, também será contemplada. A participação, voltada para estudantes da área, é gratuita e não precisa de inscrição. A programação (veja abaixo) vai até a terça-feira (16)."
         },
         {
-            "id": 2,
-            "titulo": "Instrutor da CBF Academy ministra curso no UNIESP",
-            "subtitulo": "Excelência Técnica: Parceria entre CBF Academy e UNIESP eleva padrões de formação esportiva",
-            "texto": "O instrutor da CBF Academy, Márcio Faria Corrêa realiza nos dias 03 e 04 de maio o curso Dinâmica Geral do Processo de Treinamento no Futebol, no auditório Master do UNIESP Centro Universitário."
-        }
+            "id": "2",
+            "titulo": "MBA em Marketing e Inovação realiza aula magna nesta sexta",
+            "subtitulo": "O encontro terá como tema “O marketing e a inovação que o mercado realmente precisa”",
+            "texto": "O MBA em Marketing e Inovação, pós-graduação do UNIESP, irá realizar sua aula magna nesta sexta-feira (19), a partir das 19h na Sala de Leitura da Biblioteca, 1º andar do Bloco Central. O encontro terá como tema “O marketing e a inovação que o mercado realmente precisa” e terá como ministrantes os professores André Felisberto, Gareth Butcher, Luciana Rabay e Suelen Pinto. A participação é gratuita, não sendo necessária a inscrição."
+          },
+          {
+            "id": "3",
+            "titulo": "Programa oferece 15 vagas estágio remunerado para alunos de Sistemas",
+            "subtitulo": "Em parceria exclusiva com o UNIESP, a Compass UOL abriu seleção para a trilha de formação em RPA – Robobitc Process Automation",
+            "texto": "O MBA em Marketing e Inovação, pós-graduação do UNIESP, irá realizar sua aula magna nesta sexta-feira (19), a partir das 19h na Sala de Leitura da Biblioteca, 1º andar do Bloco Central. O encontro terá como tema “O marketing e a inovação que o mercado realmente precisa” e terá como ministrantes os professores André Felisberto, Gareth Butcher, Luciana Rabay e Suelen Pinto. A participação é gratuita, não sendo necessária a inscrição."
+          }
+
+    ],
+    "afaculdade": [
+      {
+        "id": "1",
+        "texto": "Não precisa ter conteúdo..."
+      }
     ]
 }
