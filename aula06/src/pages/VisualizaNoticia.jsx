@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Box, Typography, Paper } from '@mui/material'
 
 const VisualizaNoticia = () => {
 
@@ -11,20 +13,22 @@ const VisualizaNoticia = () => {
 
     useEffect(() => {
         async function fetchData() {
-            const res = await fetch(url)
-            const data = await res.json()
-
-            setVisualizaNoticia(data)
+          const res = await fetch(url)
+          const data = await res.json()
+    
+          setVisualizaNoticia(data)
         }
         fetchData()
-    }, [])
+      }, [id])
 
   return (
-    <div>
-        <h1>{visualizaNoticia.titulo}</h1>
-        <h2>{visualizaNoticia.subtitulo}</h2>
-        <p>{visualizaNoticia.texto}</p>
-    </div>
+    <Box sx={{ p: 4 }}>
+      <Paper elevation={3} sx={{ p: 3 }}>
+        <Typography variant="h4" gutterBottom>{visualizaNoticia.titulo}</Typography>
+        <Typography variant="h6" gutterBottom>{visualizaNoticia.subtitulo}</Typography>
+        <Typography variant="body1">{visualizaNoticia.texto}</Typography>
+      </Paper>
+    </Box>
   )
 }
 

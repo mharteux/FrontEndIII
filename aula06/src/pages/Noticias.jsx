@@ -1,36 +1,36 @@
-import { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-
 
 const url = "http://localhost:3000/noticias"
 
 const Noticias = () => {
 
-    const [noticias, setNoticias] = useState([])
+  const [noticias, setNoticias] = useState([])
 
-    useEffect(() => {
-        async function fetchData() {
-            const res = await fetch(url)
-            const data = await res.json()
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch(url)
+      const data = await res.json()
 
-            setNoticias(data)
-        }
-        fetchData()
-    }, [])
+      setNoticias(data)
+    }
+    fetchData()
+  }, [])
 
   return (
     <div>
-        <h1>Notícias</h1>
-        <ul>
-            {
-                noticias.map((noticia) => (
-                    <li key={noticia.id}>
-                        <h2><Link to={`/visualiza-noticia/${noticia.id}`}> {noticia.titulo}</Link></h2>
-                        <h3>{noticia.subtitulo}</h3>
-                    </li>
-                ))
-            }
-        </ul>
+      <h1>Notícias</h1>
+      <ul>
+        {
+          noticias.map((noticia) => (
+            <li key={noticia.id}>
+              <h2><Link to={`/visualiza-noticia/${noticia.id}`}>{noticia.titulo}</Link></h2>
+              <h3>{noticia.subtitulo}</h3>
+            </li>
+          ))
+        }
+      </ul>
+
     </div>
   )
 }
